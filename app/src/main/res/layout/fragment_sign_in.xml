@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/diyaFlame"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:orientation="vertical"
+
+    tools:context=".auth.SignInFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="416.00dp"
+                android:layout_height="390.00dp"
+                android:id="@+id/ivLoginImage"
+                app:lottie_rawRes="@raw/blinkit"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="65dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="13dp"
+                android:backgroundTint="@color/diya"
+                app:lottie_rawRes="@raw/blinkit"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+<!--            <ImageView-->
+<!--                android:layout_width="65dp"-->
+<!--                android:layout_height="@dimen/_50sdp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="13dp"-->
+<!--                android:src="@drawable/ic_launcher_background"-->
+<!--                />-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="13dp"
+                android:text="India's original grocery app"
+                android:textStyle="bold"
+                android:textSize="22.10sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="13dp"
+                android:text="Login or Sign up"
+                android:textSize="16.90sp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginHorizontal="26dp"
+                android:layout_marginTop="19.50dp"
+                app:boxCornerRadiusBottomEnd="16.90dp"
+                app:boxCornerRadiusTopStart="16.90dp"
+                app:boxCornerRadiusBottomStart="16.90dp"
+                app:boxCornerRadiusTopEnd="16.60dp"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etUserNumber"
+                    android:drawableStart="@drawable/baseline_add_call_24"
+                    android:textColorHint="@color/diyaGrey"
+                    android:hint="Enter mobile number"
+                    android:drawablePadding="9.10dp"
+                    android:inputType="number"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="58.58dp"
+                android:layout_gravity="center"
+                android:id="@+id/btnContinue"
+                android:layout_marginHorizontal="26dp"
+                android:layout_marginTop="6.50dp"
+                android:backgroundTint="@color/black"
+                android:text="Continue"
+                android:textColor="#ffff"
+                android:textAllCaps="false"
+                app:cornerRadius="10.40dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

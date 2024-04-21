@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#ffbe0b</color>
+    <color name="green">#35C13D</color>
+    <color name="diyaFlame">#ffbe0b</color>
+    <color name="diyaGrey">#808080</color>
+    <color name="diyaBorder">#ffbe0b</color>
+    <color name="diya">#ffbe0b</color>
+    <color name="grayish_blue">#8d99ae</color>
+    <color name="blue">#0F3C8A</color>
+</resources>
