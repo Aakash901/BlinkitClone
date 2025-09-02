@@ -56,7 +56,7 @@ class OrderPlacedActivity : AppCompatActivity() {
 
     private fun initializePhonePay() {
 
-        Log.d("PhonePe", "Initialization")
+//        Log.d("PhonePe", "Initialization")
 
         val data = JSONObject()
         PhonePe.init(this, PhonePeEnvironment.UAT, Constants.MERCHANT_ID, "")
