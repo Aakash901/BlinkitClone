@@ -44,7 +44,7 @@ class BestSellerAdapter(val seeAllBtnClicked: (BestSeller) -> Unit) : RecyclerVi
     override fun onBindViewHolder(holder: BestSellerAdapterViewHolder, position: Int) {
         val productType = differ.currentList[position]
         holder.binding.apply {
-//            tvProduxtType.text=productType.productType
+            tvCategory.text=productType.productType
             tvTotalProducts.text = productType.products?.size.toString() +" "+ "products"
 
             val listOfIv = listOf(ivProduct1,ivProduct2,ivProduct3)

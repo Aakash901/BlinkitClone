@@ -81,7 +81,7 @@ class OrderDetailFragment : Fragment() {
 
     private fun onBackButtonClicked() {
         binding.tbOrderDetailFragment.setNavigationOnClickListener {
-            findNavController().navigate(R.id.action_ordersFragment_to_orderDetailFragment)
+            findNavController().navigate(R.id.action_orderDetailFragment_to_ordersFragment)
         }
     }
 }
